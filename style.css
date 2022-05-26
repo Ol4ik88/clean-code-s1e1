@@ -4,27 +4,27 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
-.aaa {
+.desc {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.aaa img {
+.desc img {
   width: 100%;
 }
-.aaa .more_inf {
+.desc .more {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
 
-  .aaa {
+  .desc {
     text-align: center;
   }
 
 }
-.centered-main-page-element {
+.matrix {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -34,7 +34,7 @@ body {
   display: inline-block;
   flex-grow: 1;
 }
-.task-row-wrapper {
+.wrap{
   display: flex;
 }
 ul {
@@ -130,7 +130,7 @@ button.delete img:hover {
 }
 
 /* Completed */
-ul#completed-tasks label {
+ul#completed label {
   text-decoration: line-through;
   color: #888;
 }
@@ -140,11 +140,11 @@ ul li input[type="text"] {
   display: none;
 }
 
-ul li.editMode input[type="text"] {
+ul li.item-mode input[type="text"] {
   display: inline-block;
   width: 224px;
 }
 
-ul li.editMode label {
+ul li.item-mode label {
   display: none;
 }
