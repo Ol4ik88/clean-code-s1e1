@@ -20,7 +20,7 @@
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
 
   .header {
     text-align: center;
@@ -40,7 +40,7 @@
   flex-grow: 1;
 }
 
-.wrapper{
+.wrapper {
   display: flex;
   margin: 20px 0 0;
 }
@@ -57,7 +57,7 @@
 
 .list-item__checkbox,
 .list-item__text,
-.button{
+.button {
   outline: none;
 }
 
@@ -155,7 +155,7 @@
 }
 
 /* Edit Task */
-.list-item .list-item__text{
+.list-item .list-item__text {
   display: none;
 }
 
