@@ -4,27 +4,27 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
-.desc {
+.header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.desc img {
+.header__img {
   width: 100%;
 }
-.desc .more {
+.header__more {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
 
-  .desc {
+  .header {
     text-align: center;
   }
 
 }
-.matrix {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -34,7 +34,7 @@ body {
   display: inline-block;
   flex-grow: 1;
 }
-.wrap{
+.wrapper{
   display: flex;
   margin: 20px 0 0;
 }
@@ -116,12 +116,12 @@ li > label {
 li >    input[type="text"] {
   width: 226px;
 }
-button.delete img {
+button.button-delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-button.delete img:hover {
+button.button-delete img:hover {
   transform: rotateZ(0);
 }
 
