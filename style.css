@@ -34,12 +34,6 @@
   margin: 0 auto 0;
 }
 
-.task {
-  width: 56%;
-  display: inline-block;
-  flex-grow: 1;
-}
-
 .wrapper {
   display: flex;
   margin: 20px 0 0;
@@ -132,6 +126,7 @@
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
+  flex-grow: 1;
 }
 
 .list-item__text {
